@@ -1,0 +1,54 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#ff914d;
+    width: 100vw;
+    height: 10vh;
+}
+header img {
+    width: 150px;
+    height: auto;
+}
+.whatsapp{
+    width: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.navegacao {
+    display: flex;
+}
+.navegacao ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navegacao ul li {
+    margin: 0 9px;
+    
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.navegacao ul li::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #082d6d;
+    transition: width 0.3s;
+}
+
+.navegacao ul li:hover::before {
+    width: 100%;
+}
+
+.navegacao ul li a {
+    color: white;
+}

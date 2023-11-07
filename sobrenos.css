@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+    overflow-x: hidden;
+}
+.fundo_sobre_nos{
+    background-color:#021c49;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.textos_mapa{
+    display: flex;
+    flex-direction: column;
+    margin-right: 500px;
+}
+.textos{
+    text-align: center;
+    margin: 10px 20px 1px 20px;
+    padding: 20px 100px;
+    word-wrap: break-word;
+    
+}
+.textos h1{
+    font-weight: 400px;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif ;
+    color: #ff914d;
+}
+.textos h3{
+    font-family: 'Roboto', sans-serif ;
+    margin: 0px 100px;
+    font-weight: 300px;
+    font-size: 1em;
+    color: white;
+}
+.mapa{
+    margin-top: 10px;
+    margin-right: 20px;
+    text-align: center;
+}
+.mapa h1{
+    font-weight: 400px;
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif ;
+    color: #ff914d;
+}
+iframe{
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+}
+.imagem_fiorino img{
+    width: 50vw;
+    position: fixed;
+    bottom: -70px; 
+    right: -110px;
+    z-index: 2;
+    border-radius: 100%;
+}
+.circulo {
+    width: 600px; 
+    height: 600px; 
+    background-color: #ff914d;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -150px; 
+    right: -280px;
+    z-index: 1;
+}
+.circulo1{
+    width: 600px; 
+    height: 600px; 
+    background-color: #ff914d;
+    border-radius: 50%;
+    position: fixed;
+    bottom: -300px; 
+    right: -30px;
+    z-index: 0;
+}

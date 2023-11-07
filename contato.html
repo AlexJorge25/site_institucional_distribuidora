@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="shortcut icon" href="./img/logotipo2_comfundo.jpeg" type="image/x-icon">
+    <title>AME&SUL</title>
+</head>
+<body class="fundo">
+    <header>
+       <a href="./index.html"><img src="./img/logotipo2.png" alt="Ame&sul express logo"></a>
+       <nav class="navegacao">
+           <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="#">LOGIN</a></li>
+                <li><a href="#">CADASTRAR</a></li>
+                <li><a href="./contato.html">CONTATO</a></li>
+                <li><a href="./sobrenos.html">SOBRE NÓS</a></li>
+           </ul>
+           
+       </nav>
+       <img src="./img/whatsapp_logo.png" alt="whatsapp" class="whatsapp">
+    </header>
+    <section class="landing-page">
+        <div class="textos">
+            <h1><span>Entre em contato conosco</span><br>coloque seu nome e email</h1>
+            <div class="formulario">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" placeholder="Nome">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="Mensagem">
+                    <label for="Mensagem">Mensagem:</label>
+                    <textarea class="Mensagem_texto"></textarea>
+                </div>
+                <button class="btn-first">Enviar</button>
+            </div>
+            <div class="popup" id="popup">
+                <div class="popup-content">
+                    <p>Mensagem enviada com sucesso</p>
+                    <p>Obrigado ✅</p>
+                    <span class="close" onclick="fecharPopup()">X</span>
+                </div>
+            </div>
+        </div>
+        <div class="imagem_fiorino">
+            <img src="./img/imagem van.png" alt="">
+            <div class="circulo"></div>
+            <div class="circulo1"></div>
+        </div>
+
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
